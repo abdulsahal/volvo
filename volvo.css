@@ -1,0 +1,645 @@
+@font-face {
+    font-family: marco;
+    src: url(Font/FontsFree-Net-Volvo-Novum-Medium-1.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: volvo;
+    src: url(Font/FontsFree-Net-Volvo-Novum-Light-1.ttf) format('truetype');
+    font-weight: lighter;
+}
+
+body
+{
+    background-color: rgb(255, 255, 255); margin: 0px;
+    height: 1000px;
+}
+
+.navi
+{
+    background-color:#f8f8f8;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    height: 65px;
+    justify-content: space-between;
+    
+}
+
+img
+{
+    height: 8px;
+}
+
+.menu ol
+{
+    display: flex;
+    align-items: center;
+}
+
+.menu ol li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu ol li a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: marco;
+}
+
+.menu ol li a:hover
+{
+    color: #000;
+    background-color: #f1f0f0;
+}
+
+.sign
+{
+    display: flex;
+    align-items: center;
+}
+
+.sign ul
+{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.sign ul li a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: marco;
+    font-weight: normal;
+}
+
+.sign ul li a:hover
+{
+    color: #000;
+    background-color: #f1f0f0;
+}
+
+.search ul i
+{
+    text-decoration: none;
+    color: #000;
+    padding: 50% 50%;
+    border-radius: 500px;
+}
+
+.search ul i:hover
+{
+    color: #000;
+    background-color: #f1f0f0;
+}
+
+.learn
+{
+      background-color: #000;
+      height: 50px;
+      display: flex;
+      align-items: center;
+}
+
+.learn ul
+{
+    text-align: center;
+    list-style: none;
+    padding: 0px 620px
+}
+
+.learn ul li a
+{
+    color: white;
+    text-decoration: none;
+    font-family: marco;
+    font-weight: normal;
+    font-size: medium;
+    font-size: small;
+    
+}
+
+.title
+{
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.title h3
+{
+    font-family: marco;
+    font-weight: normal;
+    font-size: medium;
+}
+
+.title h1
+{
+    font-family: marco;
+    font-weight: normal; 
+}
+
+.dropdown-menu
+{
+    display: none;
+}
+.overly:hover .dropdown-menu
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    justify-content: center;
+}
+
+.menu-column
+{
+   text-align: center;
+}
+
+.menu-column h4
+{
+    font-family: marco;
+    font-weight: normal; 
+    font-size: 14px;
+    color: #999999;
+}
+
+.menu-column ul li a
+{
+    color: #000;
+    font-family: marco;
+    font-weight: normal; 
+    font-size: 14px;
+}
+
+.menu-column ul li a:hover
+{
+    text-decoration: underline;
+}
+
+button
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: marco;
+    font-weight: normal; 
+    font-size: 15px;
+    height: 45px;
+    width: 140px;
+    margin-top: 40px;
+}
+
+button:hover
+{
+    background-color: #f1f0f0;
+}
+
+.video
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 600px;
+}
+
+.Explore
+{
+    text-align: center;
+    font-family: marco;
+    font-weight: normal;
+    margin-top: 320px;
+}
+
+.Explore ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Explore ul li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.Explore ul li a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-family: marco;
+    font-weight: medium;
+    
+}
+
+.Explore ul li a:hover
+{
+    background-color: #cecdcd;
+}
+
+.Carousel
+{
+    gap: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.card
+{
+    border: none;
+    background-color: #f5f5f5;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.card-text
+{
+    color: #999999;
+    font-family: volvo;
+    font-weight: lighter;
+}
+
+.card-text1
+{
+    color: #222222;
+    font-family: volvo;
+    font-weight: lighter;
+}
+
+.card h5
+{
+    font-family: marco;
+    font-weight: normal;
+}
+
+.Side 
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000;
+    border-radius: 100%;
+    padding: 10px 5px;
+}
+
+.Side i
+{
+    align-items: end;
+    padding-right: 10px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.Compare ul
+{
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Compare ul  li a
+{
+    text-decoration: none;
+    color: #000;
+    font-family: marco;
+}
+
+.Compare ul li a:hover
+{
+    text-decoration: underline 
+    
+}
+
+.custom-card-1
+{
+    justify-content: center;
+    margin-top: 100px
+}
+
+.custom-card-1 h1
+{
+    font-family: marco;
+    font-weight: normal; 
+    margin-bottom: 60px ;
+    text-align: center;
+}
+
+.custom-card-1 h5
+{
+    font-family: marco;
+    font-weight: normal; 
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.custom-card-1 p
+{
+    font-family: volvo;
+    font-weight: normal; 
+    font-size: 16px;
+    margin-top: 10;
+}
+
+.custom-card-1 button
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 44%;
+    margin-top: 0;
+    border: 1px solid rgb(25, 25, 59);
+    background-color: transparent;
+    width: 220px;
+    color: rgb(25, 25, 59);
+    margin-bottom: 90px;
+}
+
+.custom-card-1 button:hover
+{
+    background-color: rgb(25, 25, 59);
+    color: white;
+}
+
+.electric
+{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.electric h1
+{
+    font-family: marco;
+    font-weight: normal;
+}
+
+.electric p
+{
+    font-family: volvo;
+    font-weight: lighter;
+    font-size: 19px;
+}
+
+.custom-card-2
+{
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+    padding: 20px;
+}
+
+.custom-card-2 h5
+{
+    font-family: marco;
+    font-weight: normal; 
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+.custom-card-2 p
+{
+    font-family: volvo;
+    font-weight: lighter; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.custom-card-2 img
+{
+    margin-top: 30px;
+}
+
+.custom-card-2 a
+{
+    text-decoration: none;
+    Font-family: marco;
+    font-weight: normal; 
+    font-size: 16px;
+    color: rgb(25, 25, 59);
+}
+
+.custom-card-3
+{
+    position: relative;
+    top: 15%;
+}
+
+.custom-card-3 h5
+{
+    top: 30%;
+    position: absolute;
+    Font-family: marco;
+    font-weight: normal; 
+    font-size: 30px;
+    color: white;
+    padding-left: 10%;
+}
+
+.custom-card-3 button
+{
+    top: 47%;
+    position: absolute; 
+    margin-left: 10%;
+    width: 13%;
+}
+
+.Quick-Link
+
+{
+    margin-top: 230px;
+    text-align: center;
+}
+
+.Quick-Link h3
+{
+    Font-family: marco;
+    font-weight: normal; 
+}
+
+.underlines
+{
+    justify-content: center;
+    gap: 10px;
+    display: flex
+}
+
+.underline1
+{
+    margin-top: 20px;
+    width: 350px;
+    height: 1px;
+    background-color: #000; 
+}
+
+.underline2
+{
+    margin-top: 20px;
+    width: 350px;
+    height: 1px;
+    background-color: #000; 
+}
+
+.test-drive
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.test-drive p
+{
+    Font-family: volvo;
+    font-weight: normal;
+}
+
+.test-drive p i
+{
+    margin-left: 255px;
+}
+
+.Support
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Support p
+{
+    Font-family: volvo;
+    font-weight: normal;
+}
+
+.Support p i
+{
+    margin-left: 270px;
+}
+
+.About
+{
+    Font-family: volvo;
+    font-weight: normal; 
+    font-size: 13px;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer ul
+{
+   list-style: none;
+    margin: 0;
+}
+
+.footer ul li a
+{
+    Font-family: marco;
+    font-weight: normal; 
+    color: #000;
+    text-decoration: none
+}
+
+.headline
+{
+    display: flex;
+    Font-family: volvo;
+    font-weight: medium; 
+    font-size: 14px;
+    padding-top: 25px;
+}
+
+.service-lists {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.service-list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 13px;
+    gap: 20px;
+    list-style: none;
+    align-items: start;
+}
+
+.India
+{
+    padding-top: 30px;
+}
+
+.social-media
+{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.social-media  ul a
+{
+    margin: 20px;
+}
+
+.social-media ul i
+{
+    text-decoration: none;
+    color: #000;
+    padding: 20px 10px;
+    border-radius: 500px;
+}
+
+.social-media ul i:hover
+{
+    color: #000;
+    background-color: #f1f0f0;
+}
+
+.Privacy
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Privacy li
+{
+    font-family: volvo;
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.Copyright
+{
+    font-family: volvo;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
